@@ -4,7 +4,7 @@
   "scopeName": "source.gjs",
   "patterns": [{ "include": "source.js" }],
   "injections": {
-    "L:source.gjs -comment": {
+    "L:source.gjs -comment -string": {
       "patterns": [
         {
           "name": "meta.js.embeddedTemplateWithoutArgs",

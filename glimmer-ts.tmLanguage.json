@@ -4,7 +4,7 @@
   "scopeName": "source.gts",
   "patterns": [{ "include": "source.ts" }],
   "injections": {
-    "L:source.gts -comment": {
+    "L:source.gts -comment -string": {
       "patterns": [
         {
           "name": "meta.js.embeddedTemplateWithoutArgs",
